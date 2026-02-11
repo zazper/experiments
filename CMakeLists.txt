@@ -12,4 +12,5 @@ endif()
 project ("experiments")
 
 # Include sub-projects.
+add_subdirectory ("chrono")
 add_subdirectory ("memoryleaks")
